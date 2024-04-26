@@ -1,4 +1,5 @@
-rootProject.name = "Crimera"
+// todo: Change me! I am the root name of this project!
+rootProject.name = "SpongeKotlinExamplePlugin"
 
 pluginManagement {
     repositories {
@@ -11,11 +12,12 @@ plugins {
     id("org.gradle.toolchains.foojay-resolver-convention") version "0.5.0"
 }
 
-listOf("projects").forEach { dir ->
-    file(dir).listFiles()?.filter { it.isDirectory }?.map { file ->
-        includeProject(file.name, dir)
+listOf("projects")
+    .forEach { dir ->
+        file(dir).listFiles()?.filter { it.isDirectory }?.map { file ->
+            includeProject(file.name, dir)
+        }
     }
-}
 
 fun includeProject(name: String, folder: String? = null) {
     include(name) {

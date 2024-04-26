@@ -1,8 +1,8 @@
-package me.zodd
+package com.github.replaceme
 
 import org.spongepowered.configurate.objectmapping.ConfigSerializable
 
 @ConfigSerializable
-class CrimeraConfig {
-
+class PluginConfig {
+    val replaceMe: Boolean = TODO()
 }

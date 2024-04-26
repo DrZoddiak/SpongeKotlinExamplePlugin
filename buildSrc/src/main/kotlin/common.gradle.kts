@@ -2,7 +2,8 @@ plugins {
     kotlin("jvm")
 }
 
-group = "me.zodd"
+// todo: Replace me!
+group = "com.github.replaceme"
 
 repositories {
     mavenCentral()
