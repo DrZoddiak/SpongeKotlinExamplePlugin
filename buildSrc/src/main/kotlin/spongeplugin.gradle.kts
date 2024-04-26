@@ -8,7 +8,7 @@ plugins {
 sponge {
     // Sponge API version to target
     apiVersion("8.2.0")
-    // todo: Change me!
+    // todo: Change me?
     license("ALL RIGHTS RESERVED")
     loader {
         name("java_plain")

@@ -15,7 +15,7 @@ sponge {
     plugin("replaceme") {
         version(project.version.toString())
         // todo: Replace me!
-        displayName("Replaceme")
+        displayName("Replace Me")
         // todo: Replace me!
         entrypoint("com.github.replaceme.Main")
         description("Will eventually do something!")
